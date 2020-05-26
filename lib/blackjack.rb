@@ -60,13 +60,13 @@ def runner
   total = initial_round 
   initial_round 
 
-  player_input = get_user_input
+  #player_input = get_user_input
   
   until total > 21 do 
     hit?(total)
-    if player_input == "s" 
-      hit?(total)
-    end 
+   # if player_input == "s" 
+   #   hit?(total)
+   # end 
     
   display_card_total(total)
   end 
